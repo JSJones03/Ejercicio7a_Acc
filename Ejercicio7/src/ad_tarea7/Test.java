@@ -33,7 +33,7 @@ public class Test {
 		Alumno alum;
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Alumno> listaAlumnos = new ArrayList<>();
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 5; i++) {
 			int dia = 0, mes = 0, anhio = 0;
 			String vCurso, vCiclo, grupo;
 			char genero;
