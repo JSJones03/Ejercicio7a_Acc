@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Alumnos><Alumno><NIA>538148598</NIA><Nombre>Jesus</Nombre><Apellido>Sanchez</Apellido><FechaNacimiento>2003-04-14</FechaNacimiento><Genero>72</Genero><Ciclo>dam</Ciclo><Curso>segundo</Curso><Grupo>a</Grupo></Alumno><Alumno><NIA>698563265</NIA><Nombre>Pepe</Nombre><Apellido>Gimenez</Apellido><FechaNacimiento>1999-02-03</FechaNacimiento><Genero>72</Genero><Ciclo>daw</Ciclo><Curso>primero</Curso><Grupo>b</Grupo></Alumno></Alumnos>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Alumnos>
+	<Alumno>
+		<NIA>538148598</NIA>
+		<Nombre>Jesus</Nombre>
+		<Apellido>Sanchez</Apellido>
+		<FechaNacimiento>2003-04-14</FechaNacimiento>
+		<Genero>72</Genero>
+		<Ciclo>dam</Ciclo>
+		<Curso>segundo</Curso>
+		<Grupo>a</Grupo>
+	</Alumno>
+	<Alumno>
+		<NIA>698563265</NIA>
+		<Nombre>Pepe</Nombre>
+		<Apellido>Gimenez</Apellido>
+		<FechaNacimiento>1999-02-03</FechaNacimiento>
+		<Genero>72</Genero>
+		<Ciclo>daw</Ciclo>
+		<Curso>primero</Curso>
+		<Grupo>b</Grupo>
+	</Alumno>
+</Alumnos>

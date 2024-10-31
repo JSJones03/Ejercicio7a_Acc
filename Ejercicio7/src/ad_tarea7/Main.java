@@ -23,7 +23,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Text;
 
-public class Test {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
