@@ -1,23 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Alumnos>
-	<Alumno>
-		<NIA>538148598</NIA>
+	<Alumno NIA="569874587">
 		<Nombre>Jesus</Nombre>
-		<Apellido>Sanchez</Apellido>
+		<Apellido>Sanchez Jones</Apellido>
 		<FechaNacimiento>2003-04-14</FechaNacimiento>
 		<Genero>72</Genero>
-		<Ciclo>dam</Ciclo>
+		<Ciclo>DAM</Ciclo>
 		<Curso>segundo</Curso>
 		<Grupo>a</Grupo>
 	</Alumno>
-	<Alumno>
-		<NIA>698563265</NIA>
-		<Nombre>Pepe</Nombre>
-		<Apellido>Gimenez</Apellido>
-		<FechaNacimiento>1999-02-03</FechaNacimiento>
+	<Alumno NIA="652314526">
+		<Nombre>Pedro</Nombre>
+		<Apellido>Lopez</Apellido>
+		<FechaNacimiento>2000-06-05</FechaNacimiento>
 		<Genero>72</Genero>
-		<Ciclo>daw</Ciclo>
-		<Curso>primero</Curso>
+		<Ciclo>dam</Ciclo>
+		<Curso>segundo</Curso>
 		<Grupo>b</Grupo>
+	</Alumno>
+	<Alumno NIA="654985623">
+		<Nombre>Lucia</Nombre>
+		<Apellido>Martinez</Apellido>
+		<FechaNacimiento>2002-05-21</FechaNacimiento>
+		<Genero>77</Genero>
+		<Ciclo>daw</Ciclo>
+		<Curso>segundo</Curso>
+		<Grupo>a</Grupo>
+	</Alumno>
+	<Alumno NIA="659749852">
+		<Nombre>Pablo</Nombre>
+		<Apellido>Fernandez</Apellido>
+		<FechaNacimiento>1996-11-09</FechaNacimiento>
+		<Genero>72</Genero>
+		<Ciclo>asir</Ciclo>
+		<Curso>segundo</Curso>
+		<Grupo>b</Grupo>
+	</Alumno>
+	<Alumno NIA="698562134">
+		<Nombre>Sofia</Nombre>
+		<Apellido>Gimenez</Apellido>
+		<FechaNacimiento>2000-08-16</FechaNacimiento>
+		<Genero>77</Genero>
+		<Ciclo>asir</Ciclo>
+		<Curso>segundo</Curso>
+		<Grupo>c</Grupo>
 	</Alumno>
 </Alumnos>

@@ -1,6 +1,7 @@
 package ad_tarea7;
 
 import java.io.File;
+
 import java.time.LocalDate;
 
 import java.util.ArrayList;
@@ -21,7 +22,6 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Text;
 
 public class Main {
 
@@ -41,12 +41,12 @@ public class Main {
 			System.out.println("Alumno " + (i + 1));
 			alum = new Alumno();
 			System.out.println("Introduce el nombre:");
-			alum.setNombre(sc.next());
+			alum.setNombre(sc.nextLine());
 			System.out.println("Introduce el Apellido:");
-			alum.setApellido(sc.next());
+			alum.setApellido(sc.nextLine());
 
 			do {
-				sc.nextLine();
+				//sc.nextLine();
 				try {
 					System.out.println("Introduce el NIE(9 digitos):");
 					alum.setNia(sc.nextInt());
@@ -103,12 +103,13 @@ public class Main {
 			do {
 				System.out.println("Introduce el género: ");
 				System.out.println("1. H\t2. M");
-				genero = sc.next().toUpperCase().charAt(0);
+				genero = sc.nextLine().toUpperCase().charAt(0);
 			} while (genero != 'H' && genero != 'M');
 			alum.setGenero(genero);
 
 			listaAlumnos.add(alum);
 		}
+		System.out.println("Introducción de alumnos terminado");
 
 		// Generar el xml
 		try {

@@ -1,6 +1,7 @@
 package ad_tarea7;
 
 import org.w3c.dom.Document;
+
 import org.w3c.dom.Element;
 import org.w3c.dom.Text;
 
@@ -8,7 +9,8 @@ public class GeneraXml {
 
 	
 	public static void crearElementoAlumno(Document doc, Element elem, Alumno alum) {
-		crearElementoAlumno("NIA", Integer.toString(alum.getNia()), elem, doc);
+	//	crearElementoAlumno("NIA", Integer.toString(alum.getNia()), elem, doc);
+		elem.setAttribute("NIA", Integer.toString(alum.getNia()));
 		crearElementoAlumno("Nombre", alum.getNombre(), elem, doc);
 		crearElementoAlumno("Apellido", alum.getApellido(), elem, doc);
 		crearElementoAlumno("FechaNacimiento", alum.getFechaNacimiento().toString(), elem, doc);
@@ -25,4 +27,9 @@ public class GeneraXml {
 		elem.appendChild(texto);
 		alumno.appendChild(elem);
 	}
+	
+	
+	
+	
+	
 }
